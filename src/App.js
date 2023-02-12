@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Topbar from "../src/Topbar";
+import SideBar from "./SideBar";
+import Mainbody from "./Mainbody";
+import 'flowbite';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-blue-50">
+      <div className="grid grid-cols-1">
+        <Topbar />
+      </div>
+      <div className="grid md:grid-cols-5 grid-cols-1">
+        <div className="">
+          <SideBar />
+        </div>
+        <div className="col-span-4">
+          <Mainbody />
+        </div>
+      </div>
     </div>
   );
 }
