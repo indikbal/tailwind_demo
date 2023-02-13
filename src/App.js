@@ -2,7 +2,8 @@ import "./App.css";
 import Topbar from "../src/Topbar";
 import SideBar from "./SideBar";
 import Mainbody from "./Mainbody";
-import 'flowbite';
+import "flowbite";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Mainbody />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

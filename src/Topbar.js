@@ -31,7 +31,7 @@ const Topbar = () => {
               ></path>
             </svg>
           </button>
-          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <div class="hidden w-full md:block md:w-auto " id="navbar-default">
             <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0   dark:border-gray-700">
               <li>
                 <a
@@ -90,23 +90,23 @@ const Topbar = () => {
           </div>
         </div>
       </nav>
-      <div class="md:flex md:w-8/12 md:items-center block md:justify-center p-4 text-center m-auto">
+      <div class="md:flex md:w-6/12 md:items-center block md:justify-center p-4 text-center m-auto">
         <input
-          class="p-2 mr-2 w-full mb-2 md:mb-0 rounded-md border-0 text-gray-800 focus:outline-none active:outline-none"
+          class="p-2 mr-2 w-full mb-2 md:mb-0 rounded-sm border-0 text-gray-800 focus:outline-none active:outline-none"
           type="text"
           placeholder="Search"
         />
         <input
-          class="p-2 mr-2 w-full mb-2 md:mb-0 rounded-md border-0 text-gray-800 focus:outline-none active:outline-none"
+          class="p-2 mr-2 w-full mb-2 md:mb-0 rounded-sm border-0 text-gray-800 focus:outline-none active:outline-none"
           type="text"
           placeholder="All Companies"
         />
         <input
-          class="p-2 mr-2 w-full mb-2 md:mb-0  rounded-md border-0 text-gray-800 focus:outline-none active:outline-none"
+          class="p-2 mr-2 w-full mb-2 md:mb-0  rounded-sm border-0 text-gray-800 focus:outline-none active:outline-none"
           type="text"
           placeholder="Anywhere"
         />
-        <button class="bg-slate-900 w-full text-white pl-5 pr-5 pb-2 pt-2 rounded-md">
+        <button class="bg-slate-900 w-full text-white px-2 pb-2 pt-2 rounded-md uppercase">
           Search
         </button>
       </div>
